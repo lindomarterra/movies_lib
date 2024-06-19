@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi'
 
+import './navbar.css'
+
 const Narbar = () => {
   return (
     <div className="navbar">
       <h2>
         <Link to="/">
-          <BiCameraMovie /> MoviesLib{' '}
+          <BiCameraMovie /> MoviesLib
         </Link>
       </h2>
       <form>
